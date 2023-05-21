@@ -1,43 +1,3 @@
-BE - IT It's Final
-A & B
-Announcement
-Mishra Anand
-•
-Yesterday
-Ds Code Ass 6
-Displaying opbully.png
-opbully.png
-
-6.iml
-XML
-
-Bully.class
-Unknown File
-
-Bully.java
-Java
-
-demo.java
-Java
-
-opbuuly_cmd.png
-Image
-
-opring.png
-Image
-
-opring_cmd.png
-Image
-
-Ring.class
-Unknown File
-
-Ring.java
-Java
-
-Rr.class
-Unknown File
-Class comments
 
 import java.util.Scanner;
 
@@ -179,5 +139,3 @@ class Rr {
 	String state;       // indiactes whether active or inactive state of node
 
 }
-Ring.java
-Displaying Ring.java.
