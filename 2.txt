@@ -124,3 +124,11 @@ class ReverseClient
         }
     }
 }
+
+idlj -fall ReverseModule.idl
+javac *.java RReverseModule/*.java
+ordb -ORBInitialPort 1050&
+//Server command run on another terminal
+java ReverseServer -ORBInitialPort 1050& -ORBInitialHost localhost&
+//Client command run on another terminal
+ java ReverseClient -ORBInitialPort 1050 -ORBInitialHost localhost
